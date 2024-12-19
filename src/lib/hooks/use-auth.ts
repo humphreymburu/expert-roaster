@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase/client'
-import { toast } from '@/components/ui/use-toast'
+import { toast } from '@expo/components/ui/use-toast'
 
 export function useAuth() {
   const router = useRouter()
